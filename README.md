@@ -1,7 +1,7 @@
 # Kattis Search
-Easily find problems on Kattis with a search query. Can't find that Kattis problem you've been looking for? Well as long as you some of its problem statement, you can search for the problem with this tool.
+Easily find problems on Kattis with a search query. Can't find that Kattis problem you've been looking for? Well as long as you recall some of its problem statement, you can search for the problem with this tool.
 
-Download it [here](https://github.com/minidomo/KattisSearch/releases/tag/v0.1.0).
+Download it [here](https://github.com/minidomo/KattisSearch/releases/tag/v0.1.0)
 
 ## Prequisites
 - [.NET Core 2.2](https://dotnet.microsoft.com/download) (or compatible) installed
