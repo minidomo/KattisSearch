@@ -127,7 +127,6 @@ namespace KattisSearch {
             if (rawSearch.Length == 0)
                 throw new Exception ("You cannot have an empty search.");
             string fixedSearch = Regex.Replace (rawSearch, @"\s+", " ");
-            // Regex regexQuery = new Regex (".*" + fixedSearch + ".*", RegexOptions.IgnoreCase);
             using (StreamWriter file = new StreamWriter ("results.txt", false, UnicodeEncoding.Default)) {
                 foreach (Problem p in problems) {
                     if (p.Text.Contains (fixedSearch, StringComparison.OrdinalIgnoreCase))
