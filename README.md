@@ -17,7 +17,7 @@ The available flags can be seen in the following table.
 
 Run the program by typing the following in command prompt:
 ```shell
-dotnet KattisSearch <flag>
+dotnet KattisSearch.dll <flag>
 ```
 
 ## Building
